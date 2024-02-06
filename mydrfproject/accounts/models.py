@@ -10,7 +10,6 @@ class CustomUser(AbstractUser):
     last_name = models.CharField(max_length = 225)
     
 
-    # Add custom fields here, if needed
 
     def __str__(self):
         return self.username
